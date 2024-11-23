@@ -1,0 +1,164 @@
+{
+  "storyNodes": [
+    {
+      "nodeText": "You stand at the entrance of Dracula's castle. The towering gates loom above you, and thunder roars in the distance.",
+      "choices": [
+        "Knock on the massive wooden doors.",
+        "Search for a hidden entrance around the castle.",
+        "Call out to see if anyone responds.",
+        "Turn back, unsure if you should continue."
+      ],
+      "nextNodeIndices": [1, 2, 3, 4],
+      "backgroundImage": "castle_entrance",
+      "deathNode": false
+    },
+    {
+      "nodeText": "The door creaks open, revealing a dimly lit hallway. A shadowy figure stands at the end, watching you silently.",
+      "choices": [
+        "Step inside cautiously and greet the figure.",
+        "Demand to know who they are.",
+        "Ignore the figure and walk further into the hallway.",
+        "Run back outside before the door closes."
+      ],
+      "nextNodeIndices": [5, 6, 7, 4],
+      "backgroundImage": "dim_hallway",
+      "deathNode": false
+    },
+    {
+      "nodeText": "You find a narrow passage covered by overgrown vines. The air smells of damp earth as you step through.",
+      "choices": [
+        "Follow the passage deeper into the darkness.",
+        "Look around for signs of traps or danger.",
+        "Turn back to the main entrance.",
+        "Shout to see if anyone hears you."
+      ],
+      "nextNodeIndices": [8, 9, 0, 10],
+      "backgroundImage": "hidden_passage",
+      "deathNode": false
+    },
+    {
+      "nodeText": "Your voice echoes through the night, but no response comes. The silence is unnerving, and a chill runs down your spine.",
+      "choices": [
+        "Knock on the door instead.",
+        "Search for another way in.",
+        "Wait to see if anyone comes.",
+        "Decide to leave the castle grounds."
+      ],
+      "nextNodeIndices": [1, 2, 4, 4],
+      "backgroundImage": "castle_night",
+      "deathNode": false
+    },
+    {
+      "nodeText": "You decide to leave the castle behind. As you walk away, you can't shake the feeling that something is watching you.",
+      "choices": [],
+      "nextNodeIndices": [],
+      "backgroundImage": "leaving_castle",
+      "deathNode": true
+    },
+    {
+      "nodeText": "The figure steps forward, revealing Dracula himself. 'Welcome to my domain,' he says with a sinister smile.",
+      "choices": [
+        "Thank him and step inside.",
+        "Ask him about the rumors of his dark deeds.",
+        "Refuse to enter and prepare to fight.",
+        "Attempt to flee while he is distracted."
+      ],
+      "nextNodeIndices": [11, 12, 13, 4],
+      "backgroundImage": "dracula_entrance",
+      "deathNode": false
+    },
+    {
+      "nodeText": "'Why do you resist, mortal?' Dracula asks. His tone is both amused and threatening.",
+      "choices": [
+        "Demand answers about his plans.",
+        "Attempt to negotiate with him.",
+        "Prepare to fight him using the dagger.",
+        "Try to find a way to outsmart him."
+      ],
+      "nextNodeIndices": [14, 11, 13, 9],
+      "backgroundImage": "dracula_threat",
+      "deathNode": false
+    },
+    {
+      "nodeText": "Dracula suddenly stops and laughs. 'You are brave, but this is my domain. You will never leave alive.'",
+      "choices": [],
+      "nextNodeIndices": [],
+      "backgroundImage": "dracula_laughs",
+      "deathNode": true
+    },
+    {
+      "nodeText": "You find a hidden crypt beneath the castle. Coffins line the walls, and a faint glow emanates from deeper inside.",
+      "choices": [
+        "Investigate the glowing light.",
+        "Examine the coffins for clues.",
+        "Return to the passage.",
+        "Stay still and listen for sounds."
+      ],
+      "nextNodeIndices": [10, 11, 2, 9],
+      "backgroundImage": "hidden_crypt",
+      "deathNode": false
+    },
+    {
+      "nodeText": "You accidentally trigger a trap! Spikes shoot out from the walls, and you have nowhere to escape.",
+      "choices": [],
+      "nextNodeIndices": [],
+      "backgroundImage": "trap_triggered",
+      "deathNode": true
+    },
+    {
+      "nodeText": "The light reveals an ancient artifact. As you touch it, the ground trembles, and you hear Dracula's laughter echoing.",
+      "choices": [
+        "Take the artifact and prepare for battle.",
+        "Leave it and retreat carefully.",
+        "Use the artifact to create a distraction.",
+        "Stand your ground and challenge Dracula."
+      ],
+      "nextNodeIndices": [12, 2, 9, 6],
+      "backgroundImage": "artifact_room",
+      "deathNode": false
+    },
+    {
+      "nodeText": "Dracula reveals his plan to turn the village into his minions. 'You could join me or be destroyed,' he offers.",
+      "choices": [
+        "Pretend to join and gather information.",
+        "Refuse and prepare to fight.",
+        "Distract him to escape.",
+        "Use the artifact to counter him."
+      ],
+      "nextNodeIndices": [13, 6, 9, 14],
+      "backgroundImage": "dracula_plan",
+      "deathNode": false
+    },
+    {
+      "nodeText": "As you challenge Dracula, he transforms into a massive bat. The room shakes as he attacks with blinding speed.",
+      "choices": [
+        "Use the artifact's power.",
+        "Try to dodge and find cover.",
+        "Fight him with all your strength.",
+        "Escape back to the crypt."
+      ],
+      "nextNodeIndices": [14, 9, 7, 8],
+      "backgroundImage": "dracula_battle",
+      "deathNode": false
+    },
+    {
+      "nodeText": "The artifact glows brightly, unleashing a beam of light that forces Dracula to retreat into the shadows.",
+      "choices": [
+        "Pursue Dracula to end this.",
+        "Secure the artifact and leave.",
+        "Prepare for another attack.",
+        "Try to destroy the artifact."
+      ],
+      "nextNodeIndices": [6, 4, 11, 10],
+      "backgroundImage": "artifact_power",
+      "deathNode": false
+    },
+    {
+      "nodeText": "As Dracula retreats, you realize his power is waning. The villagers may finally have a chance to fight back.",
+      "choices": [],
+      "nextNodeIndices": [],
+      "backgroundImage": "victory",
+      "deathNode": false
+    }
+  ]
+}
